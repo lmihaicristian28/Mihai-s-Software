@@ -1,0 +1,142 @@
+* {
+	font-family: 'Prompt', sans-serif;
+}
+
+body {
+	background-image: url('../images/code-programming.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar {
+	background-color: #eba834 !important;
+	padding-left: 15px;
+	font-family: 'Prompt', sans-serif;
+	font-weight: normal;
+}
+
+.navbar-brand {
+	color: white !important;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+li.nav-item a.nav-link {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	margin-right: 50px;
+}
+
+a.nav-link:hover {
+	background-color: red;
+	position: static;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.navbar-toggler {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.navbar-toggler:focus {
+	box-shadow: 0 0 5px 5px black;
+}
+
+@media (max-width: 991px) {
+	.nav-item .nav-link {
+		color: white;
+		font-size: 20px;
+		text-decoration: none;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	a.nav-link:hover {
+		background-color: red;
+		position: static;
+	}
+
+	body {
+		background-image: url('../images/code-programming.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.container {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
+
+h2 {
+	font-family: 'Prompt', serif;
+}
+
+#content {
+	padding: 70px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+::selection {
+	background-color: rgb(255, 162, 0);
+	color: white;
+}
+
+.row {
+	width: 50%;
+	padding-left: 60px;
+}
+
+.column {
+	display: flex;
+	width: 200px;
+	height: 100px;
+	margin-bottom: 50px;
+	float: right;
+}
+
+label {
+	font-weight: bold;
+	color: black;
+	display: block;
+	margin: 0 17.5%;
+}
+
+.btn {
+	background-color: orange;
+	border: none;
+	width: 130px;
+}
+
+.btn:hover {
+	background-color: red;
+	border: none;
+}
+
+.carousel {
+	box-shadow: 10px 5px 20px black;
+	margin: 0 auto;
+}
+
+form {
+	background-color: rgba(148, 148, 148 , 0.7);
+	border-radius: 10px;
+	padding: 15px;
+}
+
+.form-control {
+	width: 65%;
+	margin: 0 auto;
+}
+
+.form-control:focus {
+	box-shadow: 0 0 5px 2px orange;
+}
+
+#table {
+	padding: 70px;
+}
